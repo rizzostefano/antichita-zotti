@@ -137,8 +137,8 @@ div .flex-container, .gallery li:hover {
 }
 
 
-#about .title, #servizi .title, #contatti .title {
-    padding: 1em 1em;
+.title {
+    padding: 1em;
 }
 
 #about h2, #servizi h2, #contatti h2 {
@@ -158,4 +158,4 @@ fieldset {
 
 .contact-content {display: block;}
 .contact-container {display: block;}
-.contact-information {max-width: 100%;}
+.contact-information {max-width: 100%; margin-top: 1em;}

@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="it">
     <head>
-        <title>Antichità Zotti | Home</title>
-        <meta name="description" content="Vendita antiquariato e modernariato nel centro storico di Padova." />
+        <title>Zotti Antiquariato</title>
+        <meta name="title" content="Zotti Antiquariato — Antiquariato e modernariato a Padova">
+        <meta name="description" content="Vendita antiquariato e modernariato nel centro storico di Padova.">
         <meta charset="UTF-8" />
-        <meta keywords="" /><!--TODO-->
+        <meta name="keywords" content="Antiquario a Padova, Vendita oggetti d'antiquariato, Antiquariato, Acquisto antichità"/>
         <meta name="language" content="italian it" />
-        <meta name="author" content="Stefano Rizzo" />
+        <meta name="author" content="Zotti Antiquariato" />
         <meta name="viewport" content="width=device-width" />
-
-        <!-- TODO: aggiungere meta property per la condivisione del sito-->
-
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.zottiantiquariato.it/">
+        <meta property="og:title" content="Zotti Antiquariato">
+        <meta property="og:description" content="Vendita antiquariato e modernariato nel centro storico di Padova.">
+        <meta property="og:image" content="assets/images/preview.png">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="http://www.zottiantiquariato.it/">
+        <meta property="twitter:title" content="Zotti Antiquariato">
+        <meta property="twitter:description" content="Vendita antiquariato e modernariato nel centro storico di Padova.">
+        <meta property="twitter:image" content="assets/images/preview.png">
         <link rel="profile" href="http://microformats.org/profile/hcard">
         <link rel="stylesheet" type="text/css" href="assets/css/screen.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="assets/css/print.css" media="print" />
         <link rel="stylesheet" type="text/css" href="assets/css/mobile.css" media="only screen and (max-width:640px)" />
-
         <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
         <script src="https://kit.fontawesome.com/d831db26b7.js" crossorigin="anonymous"></script>
     </head>
@@ -26,9 +33,9 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#about">Su di me</a></li>
-                    <li><a href="#stime">Stime</a></li>
-                    <li><a href="#contatti">Contatti</a></li>
+                    <li>Home</li>
+                    <li><a href="stime.html">Stime</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
                 </ul>
             </nav>
         </header>
@@ -36,7 +43,7 @@
             <div class="index-widescreen">
 
                 <div class="caption">
-                    <h1>Volete vendere un pezzo d'antiquariato?</h1>
+                    <h1>Acquisto e vendita d'antiquariato</h1>
                     <p>Da più di quarant'anni nel mercato dell'antiquariato Antichità Zotti compra e vende quadri, sculture, stampe, libri, oggettistica, monete, medaglie militari, stampe, vetri e molto altro ancora.</p>
                     <div class="btn-container">
                         <a href="#form-contatti" class="button">Richiedi subito una stima!</a>
@@ -78,7 +85,7 @@
                     Affidandoti ad Antichità Zotti ti potrai assicurare una perizia di qualità, frutto di anni di esperienza, ed ottenere la giusta
                     valutazione che meriti. Tra le categorie più di interesse ci sono:
                     <ul>
-                        <li>Dipinit</li>
+                        <li>Dipinti</li>
                         <li>Mobili</li>
                         <li>Oggetti rari e da collezione</li>
                         <li>Porcellane</li>
@@ -88,7 +95,7 @@
                     Acquisto sia da privati che collezionisti.
 
                     <div class="btn-container">
-                        <a href="#" class="button">Richiedi subito una stima!</a>
+                        <a href="stime.html" class="button">Richiedi subito una stima!</a>
                     </div>
 
 
@@ -121,19 +128,12 @@
                         <div class="contact-information">
                             <div class="fas fa-share-alt fa-2x" aria-hidden="true"></div>
                             <h3>Social</h3>
-                                <ul>
-                                    <li><a href="https://www.facebook.com/zottiantiquariato" lang="en"><span class="fab fa-facebook-square"></span><span class="help">Facebook</span>Facebook</a></li>
-                                    <li><a href="https://www.instagram.com/antichita_zotti/" lang="en"><span class="fab fa-instagram"></span><span class="help">Instagram</span>Instagram</a></li>
+                                <ul class="spaced">
+                                    <li><a href="https://www.facebook.com/zottiantiquariato" lang="en"><span class="fab fa-facebook-square fa-2x"></span><span class="help">Facebook</span>Facebook</a></li>
+                                    <li><a href="https://www.instagram.com/antichita_zotti/" lang="en"><span class="fab fa-instagram fa-2x"></span><span class="help">Instagram</span>Instagram</a></li>
                                 </ul>
                         </div>
                     </div>
-                </div>
-
-
-                    <!--div class="iframe-wrapper">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358878.0626085455!2d12.097280455144421!3d45.35416412998393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eda457dcf3ffd%3A0x61184c71ec4bb5c5!2sAntiquariato%20Zotti!5e0!3m2!1sit!2sit!4v1614354786054!5m2!1sit!2sit" title="Naviga fino al negozio con google maps" allowfullscreen="" aria-hidden="true" tabindex="-1" loading="lazy"></iframe>
-                    </div-->
-
                 </div>
             </section>
         </main>
@@ -141,7 +141,7 @@
             <section>
                 <div id="form-contatti">
 
-                    <form method="post" action="send.php">
+                    <form method="post" action="assets/script/send.php">
                         <fieldset>
                             <div class="field-wrapper" id="nome">
                                 <label for="name">Nome</label>
@@ -151,7 +151,7 @@
                                 <label for="email">e-mail</label>
                                 <input type="email" name="email" id="email" placeholder="Email" />
                             </div>
-                            <div class="field-wrapper" id="messaggio">
+                            <div class="message field-wrapper" id="messaggio">
                                 <label for="message">Messaggio</label>
                                 <textarea name="message" id="message" placeholder="Messaggio"></textarea>
                             </div>
@@ -165,7 +165,7 @@
                     <span class="fn n">
                         <span class="given-name">Pietro Maria Zotti</span>
                     </span>
-                    <div class="org">Antichità Zotti</div>
+                    <div class="org">Zotti Antiquariato</div>
                     <a class="email" href="mailto:pzotti@hotmail.it">pzotti@hotmail.it</a>
                     <div class="adr">
                         <div class="street-address">Selciato San Nicolò 5</div>
@@ -178,7 +178,7 @@
 
             <div class="copyright">
                 <small lang="en">
-                    &copy; 2021. All rights reserved. Antichità Zotti designed and coded by <a href="https://github.com/rizzostefano/antichita-zotti">Stefano Rizzo</a>.
+                    &copy; 2021. All rights reserved. Zotti Antiquariato designed and coded by <a href="https://github.com/rizzostefano/antichita-zotti">Stefano Rizzo</a>.
                 </small>
             </div>
 
