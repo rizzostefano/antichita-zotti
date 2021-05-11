@@ -752,7 +752,7 @@ fieldset {
 .contact-information {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    max-height: 16em;
+    max-height: 13em;
     max-width: 25%;
     padding: auto;
     text-align: center;
@@ -762,6 +762,7 @@ fieldset {
 .contact-content >div> div > h3  {
     font-weight:500;
     color:#6c6c6c;
+    padding: 0;
 }
 
 #contatti > div.contact-content > div > div > p {
@@ -784,4 +785,13 @@ fieldset {
 
 ul.spaced > li{
     margin: 1em;
+}
+
+#galleria .title {
+    background-color: 	#627f5f;
+}
+
+.faq dd{
+    border-left: 4px solid #DDDDDD;
+    margin-left: 2em;
 }
