@@ -52,8 +52,9 @@ main section p, main article p {
 }
 
 div .flex-container, .gallery ul {
-    margin: 0;
+    margin: auto;
     max-width: 100%;
+    display: contents;
 }
 
 div .flex-container, .gallery li:hover {

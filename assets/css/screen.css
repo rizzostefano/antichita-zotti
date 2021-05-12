@@ -407,7 +407,6 @@ div .flex-container, .gallery ul {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    max-width: 80%;
 }
 
 #current-page{
@@ -420,7 +419,7 @@ div .flex-container, .gallery ul {
 .gallery li {
     width: 15em;
     height: 15em;
-    margin: 0.5em auto 0.5em auto;
+    padding: 0.5em;
 }
 
 .gallery li img{
@@ -794,4 +793,8 @@ ul.spaced > li{
 .faq dd{
     border-left: 4px solid #DDDDDD;
     margin-left: 2em;
+}
+
+.strong > li, span.strong {
+    font-weight: bolder;
 }
