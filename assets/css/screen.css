@@ -140,10 +140,6 @@ section, article {
     margin: 0;
 }
 
-p {
-    font-size: 1em;
-}
-
 .flex-container {
     display: inline-flex;
     flex-wrap: wrap;
@@ -255,6 +251,7 @@ input[type=text], input[type=email], input[type=password], textarea {
     background-color: #5c5c5c;
     color:#f9f9f9;
     resize: none;
+    font-size: 1.08em;
 }
 
 #contatti-form-contatti input[type=text], #contatti-form-contatti input[type=email], #contatti-form-contatti input[type=password], #contatti-form-contatti textarea {
@@ -356,14 +353,15 @@ footer > section {
     grid-template-columns: 2fr 1fr;
     background-color: #5c5c5c;
     color: #f9f9f9;
-    font-size: 1em;
+    font-size: 1.08em;
     padding: 2em;
     text-align: center;
 }
 
 #head {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 280px 3fr 1fr;
+    margin: auto 0 auto 0;
 }
 
 #head > .logo {
@@ -797,4 +795,15 @@ ul.spaced > li{
 
 .strong > li, span.strong {
     font-weight: bolder;
+}
+
+p, article {
+    font-size: 1.08em;
+}
+
+.contact-form-content {
+    width: 40%;
+    min-height: 14em;
+    padding: 1em;
+    margin: 2em auto 1em auto;
 }

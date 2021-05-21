@@ -160,3 +160,11 @@ fieldset {
 .contact-content {display: block;}
 .contact-container {display: block;}
 .contact-information {max-width: 100%; margin-top: 1em;}
+
+main h1, main h2 {
+    text-align: center;
+}
+
+#about h2, #stime h2, #contatti h2 {
+    max-width: 100%;
+}
