@@ -18,8 +18,7 @@ html {
 header {
     width: 100%;
     background-color: #f9f9f9;
-    padding: 1em 0.5em 0 4em;
-    margin: auto;
+    padding: 1em;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -144,7 +143,6 @@ section, article {
     display: inline-flex;
     flex-wrap: wrap;
     width: 100%;
-    align-items: center;
 }
 
 .column {
@@ -166,7 +164,7 @@ section, article {
 iframe {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 20em;
     border: none;
     resize: both;
     overflow: auto;
@@ -251,7 +249,7 @@ input[type=text], input[type=email], input[type=password], textarea {
     background-color: #5c5c5c;
     color:#f9f9f9;
     resize: none;
-    font-size: 1.08em;
+    font-size: 1em;
 }
 
 #contatti-form-contatti input[type=text], #contatti-form-contatti input[type=email], #contatti-form-contatti input[type=password], #contatti-form-contatti textarea {
@@ -328,7 +326,7 @@ input[type=submit], input[type=button], .button, #content > div > div > div > a 
     border-radius: 2px;
 
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
     border-style: none;
     font-weight: 500;
     border: 1px #000 solid;
@@ -360,7 +358,7 @@ footer > section {
 
 #head {
     display: grid;
-    grid-template-columns: 280px 3fr 1fr;
+    grid-template-columns: 280px 3fr;
     margin: auto 0 auto 0;
 }
 
@@ -368,6 +366,8 @@ footer > section {
     grid-column-start: 1;
     grid-column-end: 1;
     text-align: left;
+    margin: auto 0;
+    height: 100%;
 }
 
 #head > .nav {
@@ -502,9 +502,8 @@ label, legend {
 }
 
 .caption {
-    min-height: 20em;
+    min-height: 25em;
     padding: 6em 1em;
-    top:0;
     vertical-align:middle;
     margin-left: 55%;
     color: #f9f9f9;
@@ -513,7 +512,7 @@ label, legend {
 
 
 .index-widescreen {
-    min-height: 20em;
+    min-height: 25em;
     background-image: url(../images/mappa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -569,7 +568,6 @@ label, legend {
 }
 
 .flex-article p {
-    max-height: 5em;
     overflow: hidden;
     padding: 0.5em;
 }
@@ -643,13 +641,6 @@ label, legend {
     color: #f9f9f9;
 }
 
-#stime .title {
-    background-color: 	#415a6b;
-}
-
-#contatti .title {
-    background-color: 	#818a95;
-}
 
 #about h2, #stime h2, #contatti h2 {
     max-width: 70%;
@@ -784,8 +775,8 @@ ul.spaced > li{
     margin: 1em;
 }
 
-#galleria .title {
-    background-color: 	#627f5f;
+.faq {
+    text-align: left;
 }
 
 .faq dd{

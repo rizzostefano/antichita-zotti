@@ -35,6 +35,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="stime.html">Stime</a></li>
+                    <li><a href="storia.html">La nostra storia</a></li>
                     <li>Contatti</li>
                 </ul>
             </nav>
@@ -46,7 +47,43 @@
                 </div>
 
 
+
+
                 <div class="flex-container centered">
+
+                    <section id="contatti-form-contatti" class="flex-article">
+                        <h3>Sei in cerca di informazioni più dettagliate?</h3>
+                        <p>Contattami senza impegno direttamente con il modulo sottostante. Provvederò a risponderti il prima possibile</p>
+
+                        <form method="post" action="assets/script/send.php">
+                            <fieldset>
+                                <div class="field-wrapper" id="nome">
+                                    <label for="name">Nome</label>
+                                    <input type="text" name="name" id="name" placeholder="Nome" />
+                                </div>
+                                <div class="field-wrapper" id="mail">
+                                    <label for="email">e-mail</label>
+                                    <input type="email" name="email" id="email" placeholder="Email" />
+                                </div>
+                                <div class="message field-wrapper" id="messaggio">
+                                    <label for="message">Messaggio</label>
+                                    <textarea name="message" id="message" placeholder="Messaggio"></textarea>
+                                </div>
+                                <div class="btn-container" id="invia">
+                                    <input type="submit" value="INVIA"/>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </section>
+                    <section class="section-content print-remove flex-article">
+                        <h3>Vuoi passare in negozio?</h3>
+                        <div>
+                            <p>Il negozio si trova in Selciato San Nicolò 5, Padova, in pieno centro storico, a 100 metri da Piazza dei Signori.</p>
+                            <a href="https://goo.gl/maps/aCk6kKh3CMGqtYVX6" target="_blank" rel="noopener">Apri in Maps</a>
+                            <a href="indicazioni.txt" class="help">indicazioni testuali</a>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11204.162967314025!2d11.8727994!3d45.408518!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x61184c71ec4bb5c5!2sAntiquariato%20Zotti!5e0!3m2!1sit!2sit!4v1620722976435!5m2!1sit!2sit" title="Naviga fino al negozio con google maps" allowfullscreen="" aria-hidden="true" tabindex="-1" loading="lazy"></iframe>
+                    </section>
 
                     <section class="section-content flex-article">
                         <h3>Mi puoi trovare qui:</h3>
@@ -59,40 +96,23 @@
                             <li><a href="https://www.instagram.com/antichita_zotti/" lang="en">Instagram</a></li>
                         </ul>
                     </section>
-                    <section class="section-content print-remove flex-article">
-                        <h3>Vuoi passare in negozio?</h3>
-                        <div>
-                            <p>Il negozio si trova in Selciato San Nicolò 5, Padova, in pieno centro storico, a 100 metri da Piazza dei Signori.</p>
-                            <a href="https://goo.gl/maps/aCk6kKh3CMGqtYVX6" target="_blank" rel="noopener">Apri in Maps</a>
-                            <a href="indicazioni.txt" class="help">indicazioni testuali</a>
-                        </div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11204.162967314025!2d11.8727994!3d45.408518!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x61184c71ec4bb5c5!2sAntiquariato%20Zotti!5e0!3m2!1sit!2sit!4v1620722976435!5m2!1sit!2sit" title="Naviga fino al negozio con google maps" allowfullscreen="" aria-hidden="true" tabindex="-1" loading="lazy"></iframe>
-                    </section>
-                </div>
-                <section id="contatti-form-contatti" class="flex-article">
-                    <h3>Sei in cerca di informazioni più dettagliate?</h3>
-                    <p>Contattami senza impegno direttamente con il modulo sottostante. Provvederò a risponderti il prima possibile</p>
 
-                    <form method="post" action="assets/script/send.php">
-                        <fieldset>
-                            <div class="field-wrapper" id="nome">
-                                <label for="name">Nome</label>
-                                <input type="text" name="name" id="name" placeholder="Nome" />
-                            </div>
-                            <div class="field-wrapper" id="mail">
-                                <label for="email">e-mail</label>
-                                <input type="email" name="email" id="email" placeholder="Email" />
-                            </div>
-                            <div class="message field-wrapper" id="messaggio">
-                                <label for="message">Messaggio</label>
-                                <textarea name="message" id="message" placeholder="Messaggio"></textarea>
-                            </div>
-                            <div class="btn-container" id="invia">
-                                <input type="submit" value="INVIA"/>
-                            </div>
-                        </fieldset>
-                    </form>
-                </section>
+                    <section class="section-content flex-article">
+                        <h3>Alcune risposte a domande frequenti:</h3>
+                        <dl class="faq">
+                            <dt>Domanda 1</dt>
+                            <dd>Risposta 1</dd>
+                            <dt>Domanda 2</dt>
+                            <dd>Risposta 2</dd>
+                            <dt>Domanda 3</dt>
+                            <dd>Risposta 4</dd>
+                            <dt>Domanda 5</dt>
+                            <dd>Risposta 5</dd>
+                        </dl>
+                    </section>
+
+                </div>
+
 
 
             </section>
