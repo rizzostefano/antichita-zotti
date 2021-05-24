@@ -501,15 +501,15 @@ legend {
     min-height: 25em;
     padding: 12em 1em 2em 1em;
     vertical-align:middle;
-    margin-left: 55%;
+    margin-right: 55%;
     color: #f9f9f9;
-    background-color: rgba(48,48,48, 0.9);
+    //background-color: rgba(48,48,48, 0.9);
 }
 
 
 .index-widescreen {
     min-height: 25em;
-    background-image: url(../images/uncompressed/mappa-hi-res.jpg);
+    background-image: url(../images/uncompressed/prova.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -72,7 +72,7 @@ div .flex-container, .gallery li:hover {
 }
 
 .index-widescreen {
-    background-image: url(../images/mappa.jpg);/*TODO: cambiare con immagini di risoluzione appropriata*/
+    //background-image: url(../images/mappa.jpg);/*TODO: cambiare con immagini di risoluzione appropriata*/
 }
 
 .login-form {
