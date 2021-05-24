@@ -835,3 +835,7 @@ p, article {
 .table {
     display: table;
 }
+
+#galleria > div.section-content > small {
+    padding-left: 2em;
+}
