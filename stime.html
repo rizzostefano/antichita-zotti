@@ -22,7 +22,7 @@
         <link rel="profile" href="http://microformats.org/profile/hcard">
         <link rel="stylesheet" type="text/css" href="assets/css/screen.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="assets/css/print.css" media="print" />
-        <link rel="stylesheet" type="text/css" href="assets/css/mobile.css" media="only screen and (max-width:640px)" />
+        <link rel="stylesheet" type="text/css" href="assets/css/mobile.css" media="only screen and (max-width:800px)" />
 
         <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
     </head>
@@ -42,14 +42,18 @@
         </header>
         <main id="content">
             <section id="stime">
-                <div class="title">
+                <div class="header-title">
                     <h2>Hai un oggetto antico che vorresti vendere?</h2>
                 </div>
 
 
-                    <section id="contatti-form-contatti" class="section-content">
+
+
+
+                    <section id="stime-form-contatti" class="section-content">
+
                         <h3>Contattami gratuitamente e senza impegno!</h3>
-                        <p>Compila il form sottostante per richiedere una stima o accordaci per un sopralluogo.</p>
+                        <p>Stimare un oggetto antico è il primo passo da fare per conoscerne il suo vero valore. Compila il form sottostante per richiedere una stima o accordaci per un sopralluogo.</p>
 
                         <form method="post" action="assets/script/send.php">
                             <fieldset>
@@ -65,14 +69,32 @@
                                     <label for="message">Messaggio</label>
                                     <textarea name="message" id="message" placeholder="Messaggio"></textarea>
                                 </div>
+                                <div class="field-wrapper" id="form-image">
+                                    <label for="files">Carica fino a 5 immagini per ottenere una stima più precisa.</label>
+                                    <input id="files" type="file" name="files[]" multiple="multiple" onchange="checkFiles(this.files)">
+                                </div>
                                 <div class="btn-container" id="invia">
                                     <input type="submit" value="INVIA"/>
                                 </div>
                             </fieldset>
                         </form>
                     </section>
-                    
 
+                    <div class="section-content">
+                        <div class="article">
+                            <h3>in cosa consiste una stima?</h3>
+                            <p>La stima è un documento ufficiale, dove viene certificata la natura di un oggetto, le sue caratteristiche ed il suo valore. Viene rilasciato in seguito ad uno studio approfondito, dell’oggetto in esame, da parte di un perito antiquario.
+                        Le stime sono fondamentali a fini assicurativi, per procedure di indennizzo, per divisioni ereditarie o anche per effettuare una valutazione complessiva di intere collezioni d’arte o di arredi.</p>
+                        </div>
+                        <div class="article">
+                            <h3>come posso valutare un oggetto d’antiquariato?</h3>
+                                <p>Il valore di un oggetto passa per la qualità dei materiali e del trattamento, dal suo stato e soprattutto dalla sua unicità. Un oggetto fatto a mano, avrà dei dettagli che lo distingueranno da qualsiasi altro oggetto simile, anche fatto dalla stessa persona.
+                            Per qualsiasi dubbio, suggeriamo di rivolgersi ad un esperto.</p>
+                        </div>
+
+
+
+                    </div>
 
 
             </section>
@@ -109,5 +131,6 @@
             </a>
         </div>
         <script defer src="https://kit.fontawesome.com/d831db26b7.js" crossorigin="anonymous"></script>
+        <script src="assets/script/FormValidation.js" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -18,7 +18,7 @@ html {
 header {
     width: 100%;
     background-color: #f9f9f9;
-    padding: 1em;
+    padding: 0.5em 1em 0.5em 1em;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -104,7 +104,7 @@ header img {
 
 main {
     height: 100%;
-	margin: 4em 0em 1em 0em;
+	margin: 2.5em 0em 1em 0em;
     padding: 0em 0 1em 0;
 }
 
@@ -121,7 +121,7 @@ main h2 {
 
 main h3 {
     font-size: 1.5em;
-    padding-bottom: 0.5em;
+    padding: 0.5em;
 }
 
 dt {
@@ -240,7 +240,7 @@ button:hover, #invia > input[type=submit]:hover, #content > div > div > div > a 
     background-color: #e9e9e9;
 }
 
-input[type=text], input[type=email], input[type=password], textarea {
+footer input[type=text], footer input[type=email], footer input[type=password], footer textarea {
     height:3em;
     width: 100%;
     padding: 0.5em;
@@ -252,7 +252,7 @@ input[type=text], input[type=email], input[type=password], textarea {
     font-size: 1em;
 }
 
-#contatti-form-contatti input[type=text], #contatti-form-contatti input[type=email], #contatti-form-contatti input[type=password], #contatti-form-contatti textarea {
+input[type=text], input[type=email], input[type=password], textarea, input[type=file] {
     height:3em;
     width: 100%;
     padding: 0.5em;
@@ -265,37 +265,34 @@ input[type=text], input[type=email], input[type=password], textarea {
 
 textarea {
     vertical-align: middle;
-}
-
-#contatti-form-contatti textarea {
     height: 5em;
 }
 
 
-#contatti-form-contatti ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #101010;
-  opacity: 1; /* Firefox */
-}
-
-#contatti-form-contatti::-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #101010;
-}
-
-#contatti-form-contatti::-ms-input-placeholder { /* Microsoft Edge */
-  color: #101010;
-}
-
-
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #f9f9f9;
+  color: #101010;
   opacity: 1; /* Firefox */
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #f9f9f9;
+::-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #101010;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #101010;
+}
+
+
+footer ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #f9f9f9;
+  opacity: 1; /* Firefox */
+}
+
+footer ::-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #f9f9f9;
+}
+
+footer ::-ms-input-placeholder { /* Microsoft Edge */
   color: #f9f9f9;
 }
 
@@ -358,7 +355,7 @@ footer > section {
 
 #head {
     display: grid;
-    grid-template-columns: 280px 3fr;
+    grid-template-columns: 350px 3fr;
     margin: auto 0 auto 0;
 }
 
@@ -472,7 +469,7 @@ div .flex-container, .gallery ul {
 fieldset {
     border: none;
 }
-label, legend {
+legend {
     font-weight: bold;
 }
 #floating-btn {
@@ -503,7 +500,7 @@ label, legend {
 
 .caption {
     min-height: 25em;
-    padding: 6em 1em;
+    padding: 12em 1em 2em 1em;
     vertical-align:middle;
     margin-left: 55%;
     color: #f9f9f9;
@@ -513,7 +510,7 @@ label, legend {
 
 .index-widescreen {
     min-height: 25em;
-    background-image: url(../images/mappa.jpg);
+    background-image: url(../images/uncompressed/mappa-hi-res.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -573,9 +570,8 @@ label, legend {
 }
 
 .flex-article .btn-container{
-    position: absolute;
+    position: relative;
     bottom: 2em;
-    left: 40%;
     padding-top: 2em;
     text-align: center;
 }
@@ -692,7 +688,19 @@ label {
 
 fieldset {
     display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+fieldset {
+    display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+#stime-form-contatti fieldset {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -719,10 +727,24 @@ fieldset {
     grid-row-start: 2;
     grid-row-end: 2;
 }
+
+
+#stime-form-contatti #form-image {
+    grid-column: 1 /span 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
 #invia {
     grid-column: 1 /span 2;
     grid-row-start: 3;
     grid-row-end: 3;
+}
+
+#stime-form-contatti #invia {
+    grid-column: 1 /span 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
 }
 
 #head a.logo:hover {
@@ -797,4 +819,20 @@ p, article {
     min-height: 14em;
     padding: 1em;
     margin: 2em auto 1em auto;
+}
+
+#form-image label {
+    height: 100%;
+    width: 100%;
+    text-indent: 0;
+}
+
+.header-title {
+    padding: 4em 4em 2em 4em;
+    background-color: #6c6c6c;
+    color: #f9f9f9;
+}
+
+.table {
+    display: table;
 }

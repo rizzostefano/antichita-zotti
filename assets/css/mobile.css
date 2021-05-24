@@ -168,3 +168,7 @@ main h1, main h2 {
 #about h2, #stime h2, #contatti h2 {
     max-width: 100%;
 }
+
+.header-title {
+    padding: 1em;
+}
