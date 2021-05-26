@@ -243,17 +243,7 @@ button:hover, #invia > input[type=submit]:hover, #content > div > div > div > a 
     background-color: #e9e9e9;
 }
 
-footer input[type=text], footer input[type=email], footer input[type=password], footer textarea {
-    height:3em;
-    width: 100%;
-    padding: 0.5em;
-    margin: auto;
-    border: none;
-    background-color: #5c5c5c;
-    color:#f9f9f9;
-    resize: none;
-    font-size: 1em;
-}
+
 
 input[type=text], input[type=email], input[type=password], textarea, input[type=file] {
     height:3em;
@@ -264,11 +254,18 @@ input[type=text], input[type=email], input[type=password], textarea, input[type=
     background-color: #f9f9f9;
     color:#000000;
     resize: none;
+    font-size: 1.08em;
 }
 
 textarea {
     vertical-align: middle;
     height: 5em;
+}
+
+footer input[type=text], footer input[type=email], footer input[type=password], footer textarea {
+    background-color: #5c5c5c;
+    color:#f9f9f9;
+
 }
 
 
@@ -501,8 +498,8 @@ legend {
 }
 
 .caption {
-    min-height: 25em;
-    padding: 12em 1em 2em 1em;
+    min-height: 50vh;
+    padding: 40vh 1em 10vh 1em;
     vertical-align:middle;
     margin-right: 55%;
     color: #f9f9f9;
@@ -841,4 +838,13 @@ p, article {
 
 #galleria > div.section-content > small {
     padding-left: 2em;
+}
+
+span.fab {
+    padding: 1em;
+}
+
+.section-content-container {
+    //min-height: 100vh;
+
 }
