@@ -836,10 +836,6 @@ ul.spaced > li{
     font-weight: bolder;
 }
 
-p, article {
-    font-size: 1.5em;
-}
-
 .contact-form-content {
     width: 40%;
     min-height: 14em;
