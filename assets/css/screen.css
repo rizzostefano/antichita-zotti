@@ -39,12 +39,14 @@ article > ul {
 }
 
 a {
-    color: #5c5c5c;
+    //color: #5c5c5c;
+    color: #ae8f51;
     font-weight: 300;
 }
 
 main a:hover {
     font-weight: 400;
+    color: #5c5c5c;
 }
 
 header a {
@@ -112,9 +114,9 @@ main {
 }
 
 main h1, .last-action{
-    font-size: 2.3em;
+    font-size: 4.6em;
     font-weight: 400;
-    padding: 0.5em 0 0.5em 0;
+    padding: 0.5em 0 0  em 0;
 }
 
 main h2 {
@@ -498,26 +500,49 @@ legend {
 }
 
 .caption {
-    min-height: 50vh;
-    padding: 40vh 1em 10vh 1em;
+    min-height: 80vh;
+    padding: 20vh 1em 10vh 1em;
     vertical-align:middle;
     margin-right: 55%;
     color: #f9f9f9;
     //background-color: rgba(48,48,48, 0.9);
-    margin-left: 45%;
-    margin-right: 15%;
+    margin-left: 40%;
+    margin-right: 10%;
 }
 
 
 .index-widescreen {
     min-height: 25em;
-    background-image: url(../images/uncompressed/prova.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     z-index: -2;
 }
 
+#landscape {
+    background-image: url(../images/uncompressed/prova.jpg);
+}
+
+#table {
+    background-image: url(../images/uncompressed/7.jpg);
+}
+
+div#table .caption {
+    margin-left: 10%;
+    margin-right: 40%;
+}
+
+.dark {
+    color: #101010;
+}
+
+.light-opacity {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-opacity {
+    background-color: rgba(120, 120, 120, 0.2);
+}
 
 }
 
@@ -812,7 +837,7 @@ ul.spaced > li{
 }
 
 p, article {
-    font-size: 1.08em;
+    font-size: 1.5em;
 }
 
 .contact-form-content {
@@ -848,5 +873,10 @@ span.fab {
 
 .section-content-container {
     //  min-height: 100vh;
+
+}
+
+
+#content > div > div > p {
 
 }

@@ -127,8 +127,6 @@ div .flex-container, .gallery li:hover {
 }
 
 .caption {
-    min-height: 25em;
-    max-width: 100%;
     padding: 0 2em 0 2em;
     margin: auto;
 }
@@ -163,6 +161,7 @@ fieldset {
 
 main h1, main h2 {
     text-align: center;
+    font-size: 2.6em;
 }
 
 #about h2, #stime h2, #contatti h2 {
@@ -174,4 +173,8 @@ main h1, main h2 {
 }
 #stime-form-contatti fieldset{
     display: block;
+}
+
+div#table .caption {
+    margin: auto;
 }
