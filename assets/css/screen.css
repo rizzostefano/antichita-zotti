@@ -504,6 +504,8 @@ legend {
     margin-right: 55%;
     color: #f9f9f9;
     //background-color: rgba(48,48,48, 0.9);
+    margin-left: 45%;
+    margin-right: 15%;
 }
 
 
@@ -845,6 +847,6 @@ span.fab {
 }
 
 .section-content-container {
-    //min-height: 100vh;
+    //  min-height: 100vh;
 
 }

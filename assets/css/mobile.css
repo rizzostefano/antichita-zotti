@@ -172,3 +172,6 @@ main h1, main h2 {
 .header-title {
     padding: 1em;
 }
+#stime-form-contatti fieldset{
+    display: block;
+}
